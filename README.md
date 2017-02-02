@@ -43,7 +43,7 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 This resulted in this output:
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Image_Distortion_output.JPG?raw=true)
 
-####2. Like shown in the notebook we plotted an example of one of the test images we used a combination of Thresholding functions after Image Distortion on to create a thresholded binary image. Here's an example of my output for this step:
+####2. Like shown in the notebook we plotted an example of one of the test images we used a combination of Thresholding (Sobel) functions after Image Distortion on to create a thresholded binary image. Here's an example of my output for this step:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary_test_image_output.png?raw=true)
 
@@ -65,6 +65,7 @@ This resulted in this output:
 This resulted in the following source and destination points:
     
 src_points = [(215, 715), (1120, 715), (606, 431), (676, 431)]
+
 dst_points = [(200, 720), (1080, 720), (200, -500), (1080, -500)]
 
 
