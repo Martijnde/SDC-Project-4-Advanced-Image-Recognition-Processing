@@ -135,3 +135,18 @@ Here's a [link to my video result](./project_video.mp4)
 
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
 
+
+
+###Fun
+
+This code created the amazing image showed below, might be fun to see :)
+
+image = mpimg.imread('test_images/test6.jpg')
+thresh = (180, 255)
+gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+binary = np.zeros_like(gray)
+binary[(gray > thresh[0]) & (gray <= thresh[1])] = 1
+plt.plot(binary)
+plt.show()
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Fun.JPG?raw=true)
