@@ -63,7 +63,6 @@ This resulted in this output:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary_test_image_output.png?raw=true)
 
-
 This is a plot of the binary image lines to identify the lines:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/plot_binary_image.JPG?raw=true)
@@ -81,24 +80,36 @@ This is a plot of the binary image lines to identify the lines:
 
 ####3. The code for my perspective transform includes a function called `warp()`, which appears in the IPython notebook. The `warp()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
 
-
 <<<text needed!!>>>>
-
-
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
-![alt text][image4]
+<<<image needed!!>>>>
 
 
 
-####4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
 
-![alt text][image5]
+
+
+####4. I identified lane-line pixels and fit their positions with a Sliding Windows function and Fitted a Polynomial! 
+
+The steps I took are in the Notebook and also visable in the next two pictures:
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/color_fit_lines_new.jpg?raw=true)
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/color_fit_lines_newer.jpg?raw=true)
+
+
+
+
+
+
+
 
 ####5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
+
+<<<text needed!!>>>>
 
 I did this in lines # through # in my code in `my_other_file.py`
 
@@ -106,7 +117,7 @@ I did this in lines # through # in my code in `my_other_file.py`
 
 I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
 
-![alt text][image6]
+<<<image needed!!>>>>
 
 ---
 
