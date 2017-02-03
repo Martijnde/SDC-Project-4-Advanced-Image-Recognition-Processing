@@ -32,26 +32,6 @@ I started by preparing "object points", which will be the (x, y, z) coordinates 
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/chessboard_output.JPG?raw=true)
-
-###Pipeline (single images)
-
-####1. Provide an example of a distortion-corrected image.
-To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/straight_lines1.jpg?raw=true)
-
-This resulted in this output:
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Image_Distortion_output.JPG?raw=true)
-
-####2. Like shown in the notebook we plotted an example of one of the test images we used a combination of Thresholding (Sobel) functions after Image Distortion on to create a thresholded binary image. Here's an example of my output for this step:
-
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary_test_image_output.png?raw=true)
-
-
-
-
-####3. The code for my perspective transform includes a function called `warp()`, which appears in the IPython notebook. The `warp()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
-
  def warp(img, src_points, dst_points):
     
     img_size = (img.shape[1], img.shape[0])
@@ -68,7 +48,41 @@ src_points = [(215, 715), (1120, 715), (606, 431), (676, 431)]
 
 dst_points = [(200, 720), (1080, 720), (200, -500), (1080, -500)]
 
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/chessboard_output.JPG?raw=true)
 
+###Pipeline (single images)
+
+####1. Provide an example of a distortion-corrected image.
+To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/straight_lines1.jpg?raw=true)
+
+This resulted in this output:
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Image_Distortion_output.JPG?raw=true)
+
+####2. Like shown in the notebook we plotted an example of one of the test images we used a combination of Thresholding (Sobel) functions after Image Distortion on to create a thresholded binary image. Here's an example of my output for this step:
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary_test_image_output.png?raw=true)
+
+
+This is a plot of the binary image lines to identify the lines:
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/plot_binary_image.JPG?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
+####3. The code for my perspective transform includes a function called `warp()`, which appears in the IPython notebook. The `warp()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
+
+
+<<<text needed!!>>>>
 
 
 
