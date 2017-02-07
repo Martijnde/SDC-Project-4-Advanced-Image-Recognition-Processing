@@ -67,20 +67,26 @@ This is a plot of the binary image lines to identify the lines:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/plot_binary_image.JPG?raw=true)
 
+binary plot 2:
 
-
-
-
-
-
-
-
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary%20view.JPG?raw=true)
 
 
 
 ####3. The code for my perspective transform includes a function called `warp()`, which appears in the IPython notebook. The `warp()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
 
-<<<text needed!!>>>>
+Code to define the points on the line:
+
+img = warped_im
+plt.imshow(img)
+plt.plot(1190, 100, '.')
+plt.plot(1140, 600, '.')
+plt.plot(550, 100, '.')
+plt.plot(280, 600, '.')
+
+Plot of the points on the line:
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/line%20points.png?raw=true)
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
