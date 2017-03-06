@@ -59,11 +59,11 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 This resulted in this output:
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Image_Distortion_output.JPG?raw=true)
 
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary%20Warped%20images.JPG?raw=true)
-
 ####2. Like shown in the notebook we plotted an example of one of the test images we used a combination of Thresholding (Sobel) functions after Image Distortion on to create a thresholded binary image. Here's an example of my output for this step:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary_test_image_output.png?raw=true)
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary%20Warped%20images.JPG?raw=true)
 
 This is a plot of the binary image lines to identify the lines:
 
