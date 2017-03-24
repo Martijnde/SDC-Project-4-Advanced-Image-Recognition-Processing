@@ -80,8 +80,10 @@ Code to define the points on the line:
 
 img = warped_im
 plt.imshow(img)
-    src_points = [(290, 660), (1020, 660), (595, 450), (690, 450)]
-    dst_points = [(200, 720), (1080, 720), (200, -500), (1080, -500)]
+
+> src_points = [(290, 660), (1020, 660), (595, 450), (690, 450)]
+
+> dst_points = [(200, 720), (1080, 720), (200, -500), (1080, -500)]
 
 Plot of the points on the line:
 
@@ -90,11 +92,6 @@ Plot of the points on the line:
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
 https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/warped.png
-
-
-
-
-
 
 
 ####4. I identified lane-line pixels and fit their positions with a Sliding Windows function and Fitted a Polynomial! 
@@ -106,21 +103,13 @@ The steps I took are in the Notebook and also visable in the next two pictures:
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/color_fit_lines_newer.jpg?raw=true)
 
 
-
-
-
-
-
-
 ####5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-<<<text needed!!>>>>
-
-I did this in lines # through # in my code in `my_other_file.py`
+To determine the curve of the lane lines I've done all the steps described in the lessons. With the polynomial fit for the left and right lane lines, I thereafter calculated the radius of curvature for each line according to formulas. I converted the distance units from pixels to meters, assuming 30 meters per 720 pixels in the vertical direction, and 3.7 meters per 700 pixels in the horizontal direction. For the final radius of curvature I took the average of both lines.
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
+I implemented this step in the included notebook file `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/warped.png?raw=true)
 
@@ -138,8 +127,14 @@ Here's a [link to my video result](./project_video.mp4)
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+The approach I took was just follow the lessons and be good, so I took the steps featured above, the pipeline might fail in the part of the video with shadow on the road, (like three shadow for example) or when we face bad lane lines for example, I might improve it if I were going to pursue this project further by tweaking the color settings to rule out this error.  
 
+The techniques I used were:
+
+> Remove outliers before fitting the polynomials.
+> Tweak thresholds
+> Compare frame with previous frame(s) to reduce sudden changes
+> Implement region of interest (ROI)
 
 
 ###Fun
