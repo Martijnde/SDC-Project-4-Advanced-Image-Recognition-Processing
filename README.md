@@ -91,7 +91,7 @@ Plot of the points on the line:
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
-<<<image needed!!>>>>
+https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/warped.png
 
 
 
@@ -124,7 +124,7 @@ I did this in lines # through # in my code in `my_other_file.py`
 
 I implemented this step in lines # through # in my code in `yet_another_file.py` in the function `map_lane()`.  Here is an example of my result on a test image:
 
-<<<image needed!!>>>>
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/warped.png?raw=true)
 
 ---
 
