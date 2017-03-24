@@ -80,10 +80,8 @@ Code to define the points on the line:
 
 img = warped_im
 plt.imshow(img)
-plt.plot(1190, 100, '.')
-plt.plot(1140, 600, '.')
-plt.plot(550, 100, '.')
-plt.plot(280, 600, '.')
+    src_points = [(290, 660), (1020, 660), (595, 450), (690, 450)]
+    dst_points = [(200, 720), (1080, 720), (200, -500), (1080, -500)]
 
 Plot of the points on the line:
 
