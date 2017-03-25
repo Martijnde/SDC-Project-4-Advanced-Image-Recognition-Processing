@@ -133,10 +133,10 @@ The approach I took was just follow the lessons and be good, so I took the steps
 
 The techniques I used were:
 
-> Remove outliers before fitting the polynomials.
-> Tweak thresholds
-> Compare frame with previous frame(s) to reduce sudden changes
-> Implement region of interest (ROI)
+* Remove outliers before fitting the polynomials.
+* Tweak thresholds
+* Compare frame with previous frame(s) to reduce sudden changes
+* Implement region of interest (ROI)
 
 
 ###Fun
