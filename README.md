@@ -119,7 +119,9 @@ I implemented this step in the included notebook file `yet_another_file.py` in t
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result: https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/project_video_output.mp4](./project_video.mp4)
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/project_video_output.mp4?raw=true)
 
 ---
 
@@ -127,7 +129,7 @@ Here's a [link to my video result](./project_video.mp4)
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-The approach I took was just follow the lessons and be good, so I took the steps featured above, the pipeline might fail in the part of the video with shadow on the road, (like three shadow for example) or when we face bad lane lines for example, I might improve it if I were going to pursue this project further by tweaking the color settings to rule out this error.  
+The approach I took was just follow the lessons and be good, so I took the steps featured above, the pipeline might fail in the part of the video with shadow on the road, (like three shadow for example) or when we face bad lane lines for example, I might improve it if I were going to pursue this project further by tweaking the color settings to rule this out.  
 
 The techniques I used were:
 
