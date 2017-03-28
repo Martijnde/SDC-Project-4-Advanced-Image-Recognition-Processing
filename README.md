@@ -109,11 +109,11 @@ To determine the curve of the lane lines I've done all the steps described in th
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in the included notebook file `Self_Driving_Car_P4_Advanced_Finding_Lane_Lines.html` in the function `def process_video_pipeline(image):`.  
+I implemented this step in the included notebook file `Self_Driving_Car_P4_Advanced_Finding_Lane_Lines.ipynb` in the function `def process_video_pipeline(image):`.  
 
 Here is an example of my result on a test image:
 
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/warped.png?raw=true)
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Curvature.png?raw=true)
 
 ---
 
@@ -139,6 +139,7 @@ The techniques I used were:
 * Compare frame with previous frame(s) to reduce sudden changes
 * Implement region of interest (ROI)
 
+I found it very hard to round the lines of the curvature + printing them, this was also the case for the offset numbers.
 
 ###Fun
 
