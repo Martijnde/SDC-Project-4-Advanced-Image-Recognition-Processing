@@ -1,5 +1,9 @@
 # SDC-Project-4-Advanced-Image-Recognition-Processing
 
+I also featured this project in a LinkedIn message! (for personal + Udacity branding)
+
+https://www.linkedin.com/pulse/udacity-self-driving-car-engineering-project-4-advanced-de-boer?trk=v-feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BcIIFwiOjkbC6rTj0Y0pwEQ%3D%3D
+
 ---
 
 **Advanced Lane Finding Project**
@@ -121,8 +125,9 @@ Here is an example of my result on a test image:
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a link to my output video result: 
-https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/project_video_output.mp4
+Here's a link to my output video result on youtube: 
+
+https://www.youtube.com/watch?v=mUxlQXEE9PM
 
 ---
 
@@ -140,6 +145,14 @@ The techniques I used were:
 * Implement region of interest (ROI)
 
 I found it very hard to round the lines of the curvature + printing them, this was also the case for the offset numbers.
+
+### Thanks and credits:
+
+I want to thank and add credits to the following great classmates for their overall help and support: Indra den Bakker, Jeroen Walta, Mikel Bobar-Irazar, Carlos Fernandes and Kyle Stewart-Frantz!!
+
+What's next?
+
+My aim is to combine this pipeline with a new one I have to build for Project 5, the aim of the next project is to detect other vehicles on the road. I will do this by using deep learning to build a neural network to detect the other vehicles on the road next to the lane line finding!
 
 ###Fun
 
