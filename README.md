@@ -77,6 +77,9 @@ binary plot 2:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary%20view.JPG?raw=true)
 
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Lines_drawed_2.png?raw=true)
+
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Lines_drawed.png?raw=true)
 
 ####3. The code for my perspective transform includes a function called `warp()`, which appears in the IPython notebook. The `warp()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
 
