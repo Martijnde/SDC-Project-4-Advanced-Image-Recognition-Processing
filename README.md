@@ -117,7 +117,7 @@ I implemented this step in the included notebook file `Self_Driving_Car_P4_Advan
 
 Here is an example of my result on a test image:
 
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Curvature.png?raw=true)
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/pipeline_output.png?raw=true)
 
 ---
 
