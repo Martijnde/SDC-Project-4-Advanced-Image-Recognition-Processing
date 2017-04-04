@@ -57,11 +57,14 @@ dst_points = [(200, 720), (1080, 720), (200, -500), (1080, -500)]
 ###Pipeline (single images)
 
 ####1. Provide an example of a distortion-corrected image.
-To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
+
+To demonstrate this step, I will describe how I applied the distortion correction to one of the test images:
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/straight_lines1.jpg?raw=true)
 
+I needed to use cv2.undistort() to undistort the test images to verify that the distortion correction was correctly applied to the test images. I have applied cv2.undistort() to undistort the test images just like how cv2.undistort() was used to undistort the calibration chessboard images.
+
 This resulted in this output:
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Image_Distortion_output.JPG?raw=true)
+![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/straight_lines_original_undistorted_and_warpedandundistorted_1.png?raw=true)
 
 ####2. Like shown in the notebook we plotted an example of one of the test images we used a combination of Thresholding (Sobel) functions after Image Distortion on to create a thresholded binary image. Here's an example of my output for this step:
 
