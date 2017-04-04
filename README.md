@@ -70,8 +70,6 @@ This resulted in this output:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/straight_lines_original_and_thresholded_new_1.png?raw=true)
 
-![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/Binary%20Warped%20images.JPG?raw=true)
-
 This is a plot of the binary image lines to identify the lines:
 
 ![alt tag](https://github.com/Martijnde/SDC-Project-4-Advanced-Image-Recognition-Processing/blob/master/plot_binary_image.JPG?raw=true)
